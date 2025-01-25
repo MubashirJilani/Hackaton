@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+a:hover{
+    color: white;
+}
+.view{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+#pepper{
+    color: gold;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.Ten{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 1px;
+}
+.Shop{
+    border: 2px solid wheat;
+    background-color: gold;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 40px;
+    height: 70px;
+    width: 200px;
+    position: relative;
+    bottom: 150px;
+    left: 1000px;
+    box-shadow: 5px 5px black;
+}
+.Shop:hover{
+    background-color: white;
+    color: goldenrod;
+}
+.start{
+    border: 2px solid wheat;
+    background-color: gold;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 40px;
+    height: 70px;
+    width: 200px;
+    position: relative;
+    bottom: 150px;
+    left: 1000px;
+    box-shadow: 5px 5px black;
+    margin: 20px;
+}
+.start:hover{
+    background-color: white;
+    color: goldenrod;
+}
+#Contact{
+    color: gold;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+.set{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    height: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+}
+.message{
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    background-color: gold;
+    color: white;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+}
+.message:hover{
+    background-color: white;
+    color: goldenrod;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#foot{
+    text-align: center;
+    font-size: 20px;
+}
+.github{
+    color: goldenrod;
+}
+.github:hover{
+    color: black;
+}
+.links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+.col{
+    color: black;
+}
+.col:hover{
+    color: goldenrod;
+}
+.child1{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+#promo{
+    color: gold;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
