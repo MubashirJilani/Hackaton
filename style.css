@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: ;
 }
 .parent{
     background-color: black;
@@ -48,13 +49,13 @@ a:hover{
     background-color: gold;
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 40px;
     height: 70px;
     width: 200px;
     position: relative;
     bottom: 150px;
-    left: 1000px;
+    left: 700px;
     box-shadow: 5px 5px black;
 }
 .Shop:hover{
@@ -66,13 +67,13 @@ a:hover{
     background-color: gold;
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 40px;
     height: 70px;
     width: 200px;
     position: relative;
     bottom: 150px;
-    left: 1000px;
+    left: 730px;
     box-shadow: 5px 5px black;
     margin: 20px;
 }
@@ -84,7 +85,7 @@ a:hover{
     color: gold;
     text-align: center;
     font-size: 60px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     margin-top: 15px;
     padding-top: 15px;
 }
@@ -145,6 +146,7 @@ input{
     color: goldenrod;
 }
 .child1{
+    background-color: black;
     height: 300px;
     width: 400px;
     border: 2px solid black;
@@ -173,8 +175,178 @@ input{
 }
 .biryani{
     text-align: center;
+    color: gold;
 }
 .bbq{
     height: 230px;
     width: 400px;
+}
+.pan{
+    border: 1px solid gold;
+    background-color: lightyellow;
+    box-shadow: 1px 1px goldenrod;
+    padding: 30px;
+    border-radius: 250px;
+}
+/* Mobile (up to 768px) */
+@media screen and (max-width: 768px) {
+    /* Header: Mobile-Friendly Navigation */
+    #head .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    ul li {
+        margin: 0;
+    }
+
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu.active ul {
+        display: flex;
+    }
+
+    .menu ul li a {
+        color: gold;
+        font-size: 18px;
+    }
+
+    .menu ul li a:hover {
+        color: white;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 20px;
+    }
+
+    #pepper {
+        font-size: 50px;
+    }
+
+    .Ten {
+        font-size: 25px;
+    }
+
+    .view {
+        width: 100%;
+        height: auto;
+    }
+
+    .Shop, .start {
+        width: 160px;
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px 20px;
+    }
+
+    /* Products Section */
+    .products {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .child1 {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .child1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .biryani {
+        font-size: 20px;
+    }
+
+    /* Contact Form */
+    .set {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .field {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .message {
+        width: 90%;
+        padding: 15px;
+    }
+
+    /* Links Section */
+    .links {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Small Mobile Devices (up to 480px) */
+@media screen and (max-width: 480px) {
+    #pepper {
+        font-size: 40px;
+    }
+
+    .Ten {
+        font-size: 20px;
+    }
+
+    .view {
+        height: 250px;
+    }
+
+    .Shop, .start {
+        width: 130px;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .child1 {
+        width: 95%;
+    }
+
+    .field {
+        width: 95%;
+    }
+
+    .message {
+        width: 95%;
+    }
+
+    .links {
+        font-size: 16px;
+    }
+
+    /* Contact Form */
+    .set {
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .field {
+        font-size: 14px;
+    }
+
+    .message {
+        font-size: 16px;
+    }
 }
