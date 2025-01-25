@@ -85,8 +85,8 @@ a:hover{
     text-align: center;
     font-size: 60px;
     margin-bottom: 0px;
-    margin-top: 5px;
-    padding-top: 0px;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 .set{
     display: flex;
@@ -163,4 +163,18 @@ input{
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+.child{
+    border: 1px solid gray;
+    width: 1900px;
+    height: 200px;
+    margin: 20px;
+}
+.biryani{
+    text-align: center;
+}
+.bbq{
+    height: 230px;
+    width: 400px;
 }
